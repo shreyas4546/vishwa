@@ -1,0 +1,172 @@
+
+Build a premium, hackathon-winning trust-mediated grievance platform for low-literacy and vulnerable communities.
+
+PROJECT GOAL
+Create a safe, transparent, voice-first grievance system that lets users report issues anonymously or through a proxy, track complaint progress with a tamper-resistant timeline, and verify real action taken by authorities. The product must feel credible, modern, and emotionally strong for a 36-hour hackathon demo.
+
+CORE PRODUCT IDEA
+This is not a normal complaint app. It is a trust-layer grievance system.
+The platform should help users safely report issues like corruption, ration denial, harassment, broken roads, water issues, abuse, and similar civic or personal grievances. The system must convert raw complaints into structured summaries for officials, assign priorities, route complaints to the right authority, and show proof-of-action updates so users can see that something actually happened.
+
+PRIMARY USERS
+1. Low-literacy citizens who prefer voice input and simple navigation.
+2. Vulnerable users who need anonymity or proxy reporting.
+3. Officials/NGOs/community validators who review and act on complaints.
+
+MUST-HAVE FEATURES
+1. Voice + text complaint submission
+   - Big mic-first UI
+   - Text fallback
+   - Optional image/video attachment
+   - Category selection such as water, roads, sanitation, harassment, corruption, ration denial, safety, and abuse
+
+2. Low-literacy support
+   - Large buttons
+   - Icon-based navigation
+   - Voice-first flow
+   - Local language support
+   - Read-aloud instructions
+   - Minimal typing
+
+3. Anonymous and proxy reporting
+   - Anonymous submission mode
+   - Proxy submission through a trusted helper, NGO, or volunteer
+   - No forced login
+   - Complaint ID and PIN/OTP tracking
+   - Identity masking for sensitive complaints
+
+4. AI complaint processing
+   - Convert raw complaint into structured summary
+   - Detect complaint category
+   - Estimate urgency and priority
+   - Translate or rewrite into formal language for officials
+   - Produce a short “official summary” card
+
+5. Smart priority and escalation
+   - Priority based on severity, number of affected people, and community validation
+   - If nothing happens within a set time, automatically escalate to more stakeholders
+   - Escalation path should feel like local authority → NGO/community validator → higher authority
+
+6. Complaint tracking
+   - Unique complaint number
+   - Status timeline with states such as Submitted, Verified, Assigned, Under Review, Action Taken, Resolved
+   - Timestamp for every update
+   - Simple status view that works for voice and text
+
+7. Proof-of-action trail
+   - Before/after evidence
+   - Officer notes
+   - Resolution comments
+   - Audit trail of every status change
+   - Tamper-resistant history feel, even if implemented as simulation or blockchain-lite
+
+8. Community verification
+   - Nearby users can confirm the issue
+   - “I also face this” support votes
+   - Trusted volunteer validation
+   - Crowd-backed credibility signal
+   - Genuineness check for complaints
+
+9. Admin / official dashboard
+   - Complaint queue
+   - Assign complaints
+   - Update status
+   - Add action notes
+   - Upload proof of action
+   - Mark resolved only with evidence
+
+10. Safety and trust
+   - Identity protection
+   - Secure access with PIN/OTP
+   - Anti-fake-closure verification
+   - Escalation if complaint is ignored
+   - Trust-building UI and clear process visibility
+
+UNIQUE PRODUCT ANGLES TO HIGHLIGHT
+- Trust-mediated workflow: submit → verify → assign → act → prove → confirm
+- Fear-free reporting: anonymity, proxy reporting, no public exposure
+- Low-literacy-first design: voice, icons, simple steps, almost no typing
+- Proof-of-action trail: not just “resolved,” but actual evidence of action
+- Community-backed verification: complaints gain credibility through local confirmation
+- Resistance to institutional negligence: ignored complaints become visible through escalation
+- Transparency without exposing identity: user stays safe while process stays visible
+- Tamper-proof complaint history: history should not be quietly edited or erased
+
+OPTIONAL BUT NICE-TO-HAVE FEATURES
+- Voice-based status access
+- Multi-stakeholder involvement with NGO + authority support
+- Basic reputation system with badges like “Active Citizen”
+- Insights and issue trends dashboard
+- Demo complaint scenarios for presentation:
+  - ration corruption
+  - fake seeds / farmer issue
+  - women safety via proxy reporting
+
+UX / UI DIRECTION
+The UI must feel premium, trustworthy, and judge-impressive.
+Use a dark, modern, polished design with subtle glassmorphism and neon or bright accent highlights. The interface should feel like a serious civic-tech product, not a generic form website.
+
+Design principles:
+- Clean hierarchy
+- Big and obvious CTAs
+- Voice-first hero section
+- Emotional trust cues
+- Strong timeline visuals
+- Status cards with clear motion
+- Official dashboard with authority feel
+- Responsive layout for mobile-first use
+
+Required pages/sections:
+1. Landing page
+   - Mission-driven hero
+   - Primary CTA: Report Issue
+   - Secondary CTA: Track Complaint
+   - Trust messaging
+   - Small demo complaint cards
+
+2. Complaint submission page
+   - Voice recorder UI
+   - Text input
+   - Attach media
+   - Category chips
+   - Anonymous/proxy toggle
+
+3. Processing/AI summary view
+   - Raw complaint → structured summary
+   - Category, location, priority, summary
+
+4. Tracking page
+   - Complaint ID / PIN entry
+   - Status timeline
+   - Proof-of-action cards
+   - Escalation status
+
+5. Admin dashboard
+   - Complaint list
+   - Filters by priority and category
+   - Assign / update / resolve actions
+   - Proof upload area
+
+6. Community validation section
+   - Support votes
+   - Trusted validators
+   - Genuineness score
+
+VISUAL BEHAVIOR
+- Use motion sparingly but meaningfully
+- Add glowing record button states
+- Animate timeline progression
+- Make status changes feel alive
+- Keep cards clean and readable
+- Make the whole interface feel like a civic trust platform, not a startup template
+
+BUILD RULES
+- Keep the MVP realistic for a 36-hour hackathon
+- Focus on a polished demo flow, not full backend complexity
+- Mock anything complex if needed, but present it as product logic
+- Prioritize demo clarity, trust, and visual polish over feature quantity
+
+OUTPUT EXPECTATION
+Create the product plan and UI structure first.
+Then generate the page structure, component breakdown, and implementation order.
+Make sure the final result looks premium, accessible, and believable for a hackathon judging demo.
